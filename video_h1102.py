@@ -88,8 +88,8 @@ def check_list(num,check = 0):
 def get_angle(keypoints):
     x2, x5, x8, x11 = keypoints[0][2][0], keypoints[0][5][0], keypoints[0][8][0], keypoints[0][11][0]
     y2, y5, y8, y11 = keypoints[0][2][1], keypoints[0][5][1], keypoints[0][8][1], keypoints[0][11][1]
-    x25  = (y2 + y5 ) / 2
-    x811 = (y8 + y11) / 2
+    x25  = (x2 + x5 ) / 2
+    x811 = (x8 + x11) / 2
     y25  = (y2 + y5 ) / 2
     y811 = (y8 + y11) / 2
     x = x25 - x811
