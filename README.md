@@ -10,33 +10,34 @@
 
 
 ## 구현
-* Install [PyTorch](https://pytorch.org/get-started/locally/)
+* Install [PyTorch]
+* Install [OpenCV]
 ```
 ### Option 1: bodybox 정의
 ```
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/assets/fig01.jpg' />  
+  <img src='https://github.com/rookey2/Capston2020/raw/master/assets/fig01.jpg' />    
 </p>
 
 ```
 ### Option 2: bodybox의 형태 감지
 ```
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/assets/fig02.jpg' />
+  <img src='https://github.com/rookey2/Capston2020/raw/master/assets/fig02.jpg' />
 </p>
 
 ```
 ### Option 3: bodybox의 각도 감지
 ```
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/assets/fig03.jpg' />
+  <img src='https://github.com/rookey2/Capston2020/raw/master/assets/fig03.jpg' />
 </p>
 
 ```
 ### Option 4: bodybox의 움직임벡터(MV) 감지
 ```
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/assets/fig04.jpg' />
+  <img src='https://github.com/rookey2/Capston2020/raw/master/assets/fig04.jpg' />
 </p>
 
 
@@ -46,7 +47,7 @@ python video_detect.py
 ```
 
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/assets/fig05.jpg' />
+  <img src='https://github.com/rookey2/Capston2020/raw/master/assets/fig05.jpg' />
 </p>
 
 
