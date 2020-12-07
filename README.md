@@ -15,7 +15,7 @@
 ### Option 1: bodybox 정의
 ```
 <p align='center'>
-  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig01.png' />
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig01.png' />  
 </p>
 
 ```
