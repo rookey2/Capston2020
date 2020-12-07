@@ -2,32 +2,58 @@
   <img src='https://github.com/prasunroy/openpose-pytorch/raw/master/assets/image_1.jpg' />
 </p>
 
-# OpenPose PyTorch
+# 인간 행동기반 낙상 감지 기법
 **PyTorch implementation of OpenPose.**
-<img align='right' height='100' src='https://github.com/prasunroy/openpose-pytorch/blob/master/assets/logo.png' />
 
-![badge](https://github.com/prasunroy/openpose-pytorch/blob/master/assets/badge_1.svg)
-![badge](https://github.com/prasunroy/openpose-pytorch/blob/master/assets/badge_2.svg)
+## Introduction
+최근에는 혼자 생활하는 직장인, 맞벌이하는 가정집에 남겨진 아이들, 독거노인 등 1인 가구 및 장시간 보호자가 없는 가구가 증가하고 있다. 따라서, 실내 공간에서 지병으로 인해 의식을 잃어 쓰러지거나, 부주의로 인한 낙상사고가 발생했을 때 주변에서는 이를 전혀 인지할 수가 없기 때문에, 위와 같은 경우의 해결책을 찾기 위한 인간 행동 인식 기반 낙상 감지 방법이다.
 
-## Installation
-#### Prerequisites
+
+## 구현
 * Install [PyTorch](https://pytorch.org/get-started/locally/)
-#### Option 1: Install using pip
+### Option 1: bodybox 정의
+
 ```
-pip install git+https://github.com/prasunroy/openpose-pytorch.git
+<p align='center'>
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig01.png' />
+</p>
+
 ```
-#### Option 2: Install from source
+### Option 2: bodybox의 형태 감지
+
 ```
-git clone https://github.com/prasunroy/openpose-pytorch.git
-cd openpose-pytorch
-python setup.py install
+<p align='center'>
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig02.png' />
+</p>
+
+```
+### Option 3: bodybox의 각도 감지
+
+```
+<p align='center'>
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig03.png' />
+</p>
+
+```
+### Option 4: bodybox의 움직임벡터(MV) 감지
+
+```
+<p align='center'>
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig04.png' />
+</p>
+
 ```
 
-## Running examples
+## 실행
 ```
-cd examples
-python image_demo.py
-python video_demo.py
+python video_detect.py
+
+```
+```
+<p align='center'>
+  <img src='https://github.com/rookey2/Capston2020/examples/fig/fig05.png' />
+</p>
+
 ```
 
 ## References
@@ -40,5 +66,3 @@ python video_demo.py
 
 <br />
 <br />
-
-**Made with** :heart: **and** :pizza:
