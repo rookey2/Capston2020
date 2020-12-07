@@ -11,8 +11,8 @@
 
 ## 구현
 * Install [PyTorch](https://pytorch.org/get-started/locally/)
+```
 ### Option 1: bodybox 정의
-
 ```
 <p align='center'>
   <img src='https://github.com/rookey2/Capston2020/examples/fig/fig01.png' />
@@ -20,7 +20,6 @@
 
 ```
 ### Option 2: bodybox의 형태 감지
-
 ```
 <p align='center'>
   <img src='https://github.com/rookey2/Capston2020/examples/fig/fig02.png' />
@@ -28,7 +27,6 @@
 
 ```
 ### Option 3: bodybox의 각도 감지
-
 ```
 <p align='center'>
   <img src='https://github.com/rookey2/Capston2020/examples/fig/fig03.png' />
@@ -36,25 +34,21 @@
 
 ```
 ### Option 4: bodybox의 움직임벡터(MV) 감지
-
 ```
 <p align='center'>
   <img src='https://github.com/rookey2/Capston2020/examples/fig/fig04.png' />
 </p>
 
-```
 
 ## 실행
 ```
 python video_detect.py
+```
 
-```
-```
 <p align='center'>
   <img src='https://github.com/rookey2/Capston2020/examples/fig/fig05.png' />
 </p>
 
-```
 
 ## References
 * [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
