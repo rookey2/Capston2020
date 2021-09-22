@@ -13,9 +13,7 @@ from setuptools import setup, find_packages
 
 setup(name='openpose-pytorch',
       version='0.1.0',
-      description='PyTorch implementation of OpenPose',
-      long_description=open('README.md').read(),
-      long_description_content_type='text/markdown',
+      description='PyTorch implementation of OpenPose',      
       author='Prasun Roy',
       author_email='prasunroy.pr@gmail.com',
       url='https://github.com/prasunroy/openpose-pytorch',
