@@ -43,6 +43,8 @@
 
 ## 실행
 ```
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
+python setup.py install
 python video_detect.py
 ```
 
